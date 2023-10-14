@@ -26,9 +26,9 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(height: 30,),
             Container(
               height: 300,
-              width: 300,
+              width: 400,
               decoration:const BoxDecoration(
-                color: Color.fromARGB(255, 229, 228, 228),
+                color: Color.fromARGB(255, 237, 232, 232),
                 borderRadius: BorderRadius.all(Radius.circular(10)),
                 shape: BoxShape.rectangle,
               ),
@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
               Text("Login",
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 40,
                 fontWeight: FontWeight.bold,
               ),
               ),
@@ -69,11 +69,11 @@ class _LoginScreenState extends State<LoginScreen> {
                               ));
                             }, 
                   child: Text("Forgot Password?")),
-                const SizedBox(height: 40,),
+                const SizedBox(height: 30,),
                 ElevatedButton(
                   onPressed: ()=> print("clicked"),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blueGrey,
+                    backgroundColor: const Color.fromARGB(255, 0, 170, 255),
                     padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 80),
                   ),
                   child: const Text(

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:health4all/Signin_pages/login.dart';
+import 'package:health4all/Signin_pages/register.dart';
 
 
 
@@ -22,7 +22,7 @@ class _MySplashScreenState extends State<MySplashScreen>
   startTimer()
   {
     Timer(const Duration(seconds: 8), () async {
-      Navigator.push(context, MaterialPageRoute(builder: (c)=> const LoginScreen()));
+      Navigator.push(context, MaterialPageRoute(builder: (c)=> const RegisterScreen()));
     });
   }
 
